@@ -1,0 +1,762 @@
+
+/*how can I add a border?*/
+/*do i need an active button for choices?*/
+/*how to keep the screen same*/
+/*how can i get the link to put in to test it out?*/
+/*how to include a Readme txt. file saying what work we did?*/
+
+*{
+	margin:0;
+	padding:0;
+}
+
+a{
+	text-decoration: none
+}
+
+body{
+	overflow-x: hidden
+}
+
+
+.topnav {
+	position: relative;
+	overflow: hidden;
+	margin-top: 30px;
+	text-align: center;
+	width: 1100px;
+	margin-left: 16.5%;
+}
+
+.topnav a {
+	float: left;
+	text-align: center;
+	padding: 14px 30px;
+	text-decoration: none;
+	font-size: 18px;
+	font-family: Monsterrat;
+	color:#18A0FB;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;	
+	line-height: 22px;
+	letter-spacing:  0.08em;
+
+}
+
+.topnav-centered a {
+	float: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+	float: right;
+}
+
+#biggercontainer{
+	border-bottom:10px blue;
+}
+
+#container {
+	margin: 0 100px;
+	text-align: center;
+}
+
+#Header {
+	margin: 0 auto;
+	/*does not show border on the bottom of the picture*/
+	border-bottom: 10px #18A0FB;
+}
+
+#homework5{
+	text-align:middle;
+	padding-right:190px;
+	float:left;
+}
+
+.signupbutton{
+	border:1px solid #18A0FB;
+
+}
+
+h2{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	line-height: 61px;
+	display: flex;
+	letter-spacing: -0.015em;
+
+}
+
+#coverPhoto{
+	background-image: url("homepagepicture1.png");
+	background-repeat: no-repeat;
+	height: 600px;
+	background-size: 100% 100%;
+}
+
+#Buns {
+	padding-left:15%;
+	padding-top: 30%;
+	opacity:0.90;
+}
+
+#OriginalBuns{
+	background-image: url("roll3.png");
+	background-repeat: no-repeat;
+	height: 350px;
+	background-size: 100% 100% ;
+	float:right;
+	width:70%;
+}
+
+
+#Buns2 {
+	padding-left:42%;
+	padding-top: 10%;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	line-height: 61px;
+	display: flex;
+	text-align: right;
+	letter-spacing: -0.015em;
+	opacity:0.80;
+}
+
+
+#topbutton {
+	margin-left: 28%;
+	margin-top:3px;
+}
+
+#bottombutton{
+	margin-left:150px
+	margin-top:3px;
+	margin-left:58%;
+}
+
+.button {
+  background-color: #18A0FB; 
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  padding-left: 40%;
+  position: absolute;
+  left: 8.39%;
+  right: 8.23%;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.15em;
+
+}
+
+.button3 {
+	padding: 15px 15px;
+
+}
+
+
+#Mission{
+	width: 30%;
+	float:left;
+	text-align: left;
+	padding-right: 5%;
+	box-sizing: border-box; 
+	opacity: .75;
+}
+
+
+
+h3{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 72px;
+	letter-spacing: -0.015em;
+}
+
+p{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 30px;
+	letter-spacing: -0.015em;
+	/*how to just taget learn more?*/
+	text-decoration: none;
+}
+
+h4{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 61px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: -0.015em;
+}
+
+
+.navigationforfooter{
+	position:absolute;
+	margin-top:35%;
+	float:right;
+}
+
+.navigationforfooter ul{
+	list-style:none;
+
+}
+
+.navigationforfooter li{
+	display:inline-block;
+
+}
+
+.navigationforfooter a{
+	padding-left:170px;
+}
+
+#footer1{
+	position:absolute;
+	margin-top:250px;
+	margin-left:41.5%;
+	z-index:2;
+	padding-top:320px;
+}
+
+/* productpage below*/
+
+
+#productcontainer{
+	margin:0px 100px;
+	position:relative;
+	margin-top: 10%;
+}
+
+
+#leftcol, 
+#rightcol{
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+#leftcol{
+	margin-left:12%;
+}
+
+#rightcol{
+	z-index:1;
+	float:right;
+	margin-left:58%;
+}
+
+
+
+.productinfo{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 21px;
+	line-height: 26px;
+	display: flex;
+	text-align: center;
+	letter-spacing: 0.15em;
+	margin-left:10%;
+
+
+}
+
+
+#freeinfo{
+	margin-left:60px;
+}
+
+#walnutinfo{
+	margin-left:8%;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 21px;
+	line-height: 26px;
+	display: flex;
+	text-align: center;
+	letter-spacing: 0.15em;
+	margin-left:12%;
+}
+
+#pumpkininfo{
+	margin-left:8%;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 21px;
+	line-height: 26px;
+	display: flex;
+	text-align: center;
+	letter-spacing: 0.15em;
+	margin-left:8%;
+}
+
+#pecaninfo{
+	margin-left:100px;
+}
+
+.productprice {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 26px;
+	display: flex;
+	text-align: center;
+	letter-spacing: 0.15em;
+	margin-left:10.5%;
+	margin-bottom: 5%;
+}
+
+.originalimage{
+	opacity: 0.90;
+}
+
+
+#blackberryimage{
+	opacity:0.85;
+}
+
+
+#pumpkinimage{
+	opacity:0.90;
+}
+
+#caramelimage{
+	opacity:0.90;
+}
+
+#footer2{
+	position:absolute;
+	margin-top:103%;
+	margin-left:47.5%;
+	z-index:2;
+}
+
+
+.navigationforfooter2{
+	margin-top:99%;
+	float:left;
+}
+
+.navigationforfooter2 ul{
+	list-style:none;
+
+}
+
+.navigationforfooter2 li{
+	display:inline-block;
+
+}
+
+.navigationforfooter2 a{
+	padding-left:170px;
+}
+
+
+/*productdetailspage for walnut*/
+
+#main{
+	margin:0px 100px;
+}
+
+.container3{
+	margin:0px 100px ;
+}
+
+#visual{
+	position:relative;
+	float:left;
+}
+
+.left-column{
+	margin-top:90px;
+}
+
+#stars{
+	float:right;
+	position:absolute;
+	z-index:2;
+	margin-left:2%;
+	margin-top:3%;
+}
+
+
+#title{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 40px;
+	line-height: 50px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.05em;
+	z-index:2;
+	position:absolute;
+	float:right;
+	margin-left:40.5%;
+}
+
+#reviewtitle{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.10em;
+	margin-top:10px;
+	position:absolute;
+	margin-left:47.5%;
+	margin-top:45px;
+}
+
+#description{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 30px;
+	letter-spacing: 0.10em;
+	position:absolute;
+	margin-top:6.5%;
+	margin-left:40.5%;
+	z-index:3;
+
+}
+
+.glazingbutton{
+	background-color:#fff;
+	border:none;
+	border:1px solid #18A0FB;
+	padding:2px 30px;
+	text-align:center;
+	display:inline-block;
+	font-size:12px;
+	cursor:pointer;
+	float:left;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 30px;
+	letter-spacing: 0.15em;
+}
+
+.quantitybutton{
+	background-color:#fff;
+	border:none;
+	border:1px solid #18A0FB;
+	padding:2px 30px;
+	text-align:center;
+	display:inline-block;
+	font-size:12px;
+	cursor:pointer;
+	float:left;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 30px;
+	letter-spacing: 0.15em;
+}
+
+.glazingbutton:focus{
+	background-color:#18A0FB;
+}
+
+.quantitybutton:focus{
+	background-color:#18A0FB;
+}
+
+.btn-group .glazingbutton:hover{
+	background-color:#18A0FB;
+}
+
+.btn-group .quantitybutton:hover{
+	background-color:#18A0FB;
+}
+
+.bigglazingbutton{
+	position:absolute;
+	margin-top:16.5%;
+	float:right;
+	z-index:4;
+	margin-left:47%;
+}
+
+.bigquantitybutton{
+	position:absolute;
+	margin-top: 19.5%;
+	float:right;
+	z-index:4;
+	margin-left:47%;
+}
+/*"Glazing" title */
+.btn-group h2{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 30px;
+	letter-spacing: 0.15em;
+	position:absolute;
+
+}
+
+#glazingtitle{
+	margin-left:40.5%;
+	margin-top:17%;
+}
+
+#quantitytitle{
+	margin-left:40.5%;
+	margin-top:19.5%;
+	position:absolute;
+	z-index:3;
+
+}
+
+#allergencontent{
+	margin-left:40.5%;
+	position:absolute;
+	z-index:3;
+	margin-top:13%;
+}
+
+.totalprice{
+	position:absolute;
+	margin-top:26%;
+	margin-left:64%;
+}
+
+#total{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.10em;
+	margin-left:10px;
+
+}
+
+/*keeps text in one line inside the button*/
+.addtocartbutton{
+	 white-space:nowrap;
+	 margin-right:50%;
+	 position:absolute;
+	 z-index:3;
+}
+
+.sideview{
+	float:left;
+	margin-right:50%;
+	margin-top:30px;
+	opacity:0.80;
+}
+
+#view2{
+	margin-left:20px;
+}
+
+#view3{
+	margin-left:20px;
+}
+
+#review{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 25px;
+	line-height: 37px;
+	display: flex;
+	letter-spacing: 0.10em;
+	position:absolute;
+	z-index:4;
+	margin-top:44%;
+	margin-left:40%;
+}
+
+#bottomstars{
+	position:absolute;
+	margin-left:8.8%;
+	margin-top:44.3%;
+}
+
+#threereviews{
+	position:absolute;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height:37px;
+	display: flex;
+	letter-spacing: 0.10em;
+	position:absolute;
+	z-index:7;
+	margin-top:44.2%;
+	margin-left:54.2%;
+}
+
+#Reviewsblock{
+	position:absolute;
+	margin-top:45%;
+}
+
+#reviewscontainer{
+	border-top:1px solid #18A0FB;
+}
+
+.helpfulbutton{
+	background-color:#fff;
+	border:none;
+	border:1px solid #18A0FB;
+	padding:0px 6px;
+	text-align:center;
+	display:inline-block;
+	font-size:10px;
+	cursor:pointer;
+	float:left;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 30px;
+	letter-spacing: 0.15em;
+}
+
+.username{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 30px;
+	letter-spacing: 0.10em;
+	text-decoration-line: underline;
+
+}
+
+.date{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 30px;
+	letter-spacing: 0.10em;
+	position:absolute;
+
+}
+
+#date1{
+	z-index:7;
+	margin-left:10%;
+	position:absolute;
+	margin-top:7%;
+}
+
+#name1{
+	z-index:7;
+	margin-left:10%;
+	margin-top:5%;
+	position:absolute;
+}
+
+#profile1{
+	z-index:8;
+	margin-top:5%;
+	position:absolute;
+	margin-left:5%;
+}
+
+#date2{
+	z-index:7;
+	margin-left:10%;
+	position:absolute;
+	margin-top:22%;
+}
+
+#name2{
+	z-index:7;
+	margin-left:10%;
+	margin-top:20%;
+	position:absolute;
+}
+
+#profile2{
+	z-index:8;
+	margin-top:10.5%;
+	position:absolute;
+	margin-left:5%;
+	margin-top:20%;
+
+}
+
+#date3{
+	z-index:7;
+	margin-left:10%;
+	position:absolute;
+	margin-top:23%;
+}
+
+#name3{
+	z-index:7;
+	margin-left:10%;
+	margin-top:21%;
+	position:absolute;
+}
+
+#profile3{
+	z-index:8;
+	margin-top:10.5%;
+	position:absolute;
+	margin-left:5%;
+	margin-top:21%;
+}
+
+#leftblock{
+	float:left;
+}
+
+#rightblock{
+	margin-left:25%;
+	float:right;
+	padding-right:27%;
+	position:relative;
+	z-index:6;
+	margin-top:5%;
+}
+
+
