@@ -9,17 +9,19 @@
 
 <body>
 <!--  div id="Header"  -->
-  <div class="topnav">
-    <div class= "topnav-centered">
-      <a  class="logo" id="homework5" href="index.html"><img src="Component1.png" alt="logo" height= "55" width= "370"></a>
-    </div>
+  <div id="navbox">
+    <div class="topnav">
+      <div class= "topnav-centered">
+        <a  class="logo" id="homework5" href="index.html"><img src="Component1.png" alt="logo" height= "55" width= "370"></a>
+      </div>
 
-    <div class="topnav-right">
-      <a href="./product.html">Order</a> 
-      <a href="#">Cart</a> 
-      <a class="signupbutton" href="#">Sign Up</a> 
-    </div>
+      <div class="topnav-right">
+        <a href="./product.html">Order</a> 
+        <a href="#">Cart</a> 
+        <a class="signupbutton" href="#">Sign Up</a> 
+      </div>
 
+    </div>
   </div>
     
   <main class="container3">
@@ -36,12 +38,13 @@
       <div class="product-description">
         <h1 id=title>Original</h1>
         <a id="stars" href="#Reviewsblock"><img src="reviews.png" alt="stars" height="30" width="100"></a>
-        <a href="#Reviewsblock"><h2 id=reviewtitle>(3 reviews)</h2></a>
+        <a href="#Reviewsblock"><h2 id=reviewtitle>(2 reviews)</h2></a>
         <p id="description">Lorem ipsum dolor sit amet, an vis diceret <br> ancillae, at modus melius eam. Oratio <br> luptatum splendide ad quo, ex corrumpit sadipscing </p>
         <p id="allergencontent"><em>Allergen contents: Lorem ipsum dolor sit amet, an vis diceret ancillae, at modus melius eam.</em></p>
       </div>
-        
+
       <!-- Glazing and quantity options-->
+      <!--  
       <div class="btn-group">
         <h2 id="glazingtitle"> Glazing </h2>
         
@@ -60,6 +63,135 @@
             <button class="quantitybutton"> 12 rolls</button>
         
           </div>
+        -->
+        <div class="btn-group">
+          <h2 id="glazingtitle"> Glazing </h2>
+
+          <div class="bigglazingbutton">
+            <button  class= glazingbutton id=gbutton onclick="setColor()">None</button>
+            <button  class= glazingbutton id=gbutton2 onclick="setColor2()">Sugar-Milk</button>
+            <button  class=glazingbutton id=gbutton3 onclick="setColor3()">Vanilla-Milk</button>
+            <button  class=glazingbutton id=gbutton4 onclick="setColor4()">Double-Chocolate</button>
+          </div>
+
+          <script>
+          var countb1 = 1;
+              function setColor() {
+                  var property = document.getElementById("gbutton");
+                  if (countb1 == 0) {
+                      property.style.backgroundColor = "#FFF"
+                      countb1 = 1;        
+                  }
+                  else {
+                      property.style.backgroundColor = "#18A0FB"
+                      countb1 = 0;
+                  }
+              }
+
+          var countb2 = 1;
+            function setColor2() {
+                  var property = document.getElementById("gbutton2");
+                  if (countb2 == 0) {
+                    property.style.backgroundColor = "#FFF"
+                    countb2 = 1;        
+                }
+                else {
+                      property.style.backgroundColor = "#18A0FB"
+                      countb2 = 0;
+                  }
+              }
+
+          var countb3 = 1;
+            function setColor3() {
+                  var property = document.getElementById("gbutton3");
+                  if (countb3 == 0) {
+                      property.style.backgroundColor = "#FFF"
+                      countb3 = 1;        
+                  }
+                  else {
+                      property.style.backgroundColor = "#18A0FB"
+                      countb3 = 0;
+                  }
+              }
+
+          var countb4 = 1;
+            function setColor4() {
+                  var property = document.getElementById("gbutton4");
+                  if (countb4 == 0) {
+                      property.style.backgroundColor = "#FFF"
+                      countb2 = 1;        
+                  }
+                  else {
+                      property.style.backgroundColor = "#18A0FB"
+                      countb4 = 0;
+                  }
+              }
+          </script>
+
+          <h2 id="quantitytitle"> Quantity </h2>
+          
+          <div class="bigquantitybutton">
+            <button  class= quantitybutton id=qbutton onclick="setColor5()">1 roll</button>
+            <button  class= quantitybutton id=qbutton2 onclick="setColor6()">3 rolls</button>
+            <button  class= quantitybutton id=qbutton3 onclick="setColor7()">6 rolls</button>
+            <button  class= quantitybutton id=qbutton4 onclick="setColor8()">12 rolls</button>
+          </div>
+
+          <script>
+          var countb1 = 1;
+              function setColor5() {
+                  var property = document.getElementById("qbutton");
+                  if (countb1 == 0) {
+                      property.style.backgroundColor = "#FFF"
+                      countb1 = 1;        
+                  }
+                  else {
+                      property.style.backgroundColor = "#18A0FB"
+                      countb1 = 0;
+                  }
+              }
+
+          var countb2 = 1;
+            function setColor6() {
+                  var property = document.getElementById("qbutton2");
+                  if (countb2 == 0) {
+                    property.style.backgroundColor = "#FFF"
+                    countb2 = 1;        
+                }
+                else {
+                      property.style.backgroundColor = "#18A0FB"
+                      countb2 = 0;
+                  }
+              }
+
+          var countb3 = 1;
+            function setColor7() {
+                  var property = document.getElementById("qbutton3");
+                  if (countb3 == 0) {
+                      property.style.backgroundColor = "#FFF"
+                      countb3 = 1;        
+                  }
+                  else {
+                      property.style.backgroundColor = "#18A0FB"
+                      countb3 = 0;
+                  }
+              }
+
+          var countb4 = 1;
+            function setColor8() {
+                  var property = document.getElementById("qbutton4");
+                  if (countb4 == 0) {
+                      property.style.backgroundColor = "#FFF"
+                      countb2 = 1;        
+                  }
+                  else {
+                      property.style.backgroundColor = "#18A0FB"
+                      countb4 = 0;
+                  }
+              }
+          </script>
+
+
 
         <!-- Total price -->
         <div class="totalprice">
@@ -81,7 +213,7 @@
 
           <a><img id="bottomstars" src="reviews.png" alt="stars" height="30" width="100"></a>
           <h1 id=review> Reviews </h1>
-          <h2 id="threereviews"> (3) </h2>
+          <h2 id="tworeviews"> (2) </h2>
         </div>
 
         <div id="Reviewsblock">
@@ -112,20 +244,6 @@
               <button class="helpfulbutton"></button>
             </div>
 
-
-            <div class= "leftblock">
-              <a><img id="profile3" src="circle.png" alt="user profile" height="50" width="50"></a>
-              <h1 class="username" id="name3"> username </h1>
-              <h2 class="date" id="date3"> date </h2>
-            </div>
-
-
-            <div class="rightblock">
-              <a><img src="reviews.png" alt="stars" height="20" width="70"></a>
-              <p>Lorem ipsum dolor sit amet, an vis diceret ancillae, at modus melius eam. Oratio luptatum splendide ad quo, ex corrumpit sadipscing vim, eum ad indoctum volutpat conclusionemque.</p>
-              <p><em>19 people found this helpful</em></p>
-              <button class="helpfulbutton"></button>
-            </div>
 
         </div>
 
