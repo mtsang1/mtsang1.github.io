@@ -1,3 +1,6 @@
+/*Michelle Tsang*/
+/*mtsang1*/
+
 *{
 	margin:0;
 	padding:0;
@@ -22,7 +25,7 @@ body{
 	margin-top: 30px;
 	text-align: center;
 	width: 1100px;
-	margin-left: 16.5%;
+	margin-left: 69.5%;
 }
 
 .topnav a {
@@ -44,7 +47,6 @@ body{
 .topnav-centered a {
 	float: none;
 	position: absolute;
-	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
@@ -70,8 +72,9 @@ body{
 }
 
 #homework5{
-	padding-right:190px;
+	padding-right:115px;
 	float:left;
+	margin-bottom:12%;
 }
 
 .signupbutton{
@@ -101,6 +104,7 @@ h2{
 	padding-left:15%;
 	padding-top: 30%;
 	opacity:0.90;
+	border-top: 1px solid #18A0FB;
 }
 
 #OriginalBuns{
@@ -195,7 +199,7 @@ p{
 	font-size: 14px;
 	line-height: 30px;
 	letter-spacing: -0.015em;
-	/*how to just taget learn more?*/
+	/*how to just taget learn ?*/
 	text-decoration: none;
 }
 
@@ -229,15 +233,20 @@ h4{
 }
 
 .navigationforfooter a{
-	padding-left:170px;
+	padding-left:165px;
 }
+
 
 #footer1{
 	position:absolute;
-	margin-top:250px;
-	margin-left:41.5%;
+	margin-top:220px;
+	margin-left:41.7%;
 	z-index:2;
 	padding-top:320px;
+}
+
+.copyrightsymbol{
+	font-size:11px;
 }
 
 /* productpage below*/
@@ -373,8 +382,8 @@ h4{
 
 #footer2{
 	position:absolute;
-	margin-top:90%;
-	margin-left:44.5%;
+	padding-top:87%;
+	padding-left:45.7%;
 	z-index:5;
 }
 
@@ -638,7 +647,7 @@ h4{
 
 #Reviewsblock{
 	position:absolute;
-	margin-top:45%;
+	margin-top:47%;
 }
 
 #reviewscontainer{
