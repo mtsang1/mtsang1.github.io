@@ -1,10 +1,3 @@
-
-/*how can I add a border?*/
-/*do i need an active button for choices?*/
-/*how to keep the screen same*/
-/*how can i get the link to put in to test it out?*/
-/*how to include a Readme txt. file saying what work we did?*/
-
 *{
 	margin:0;
 	padding:0;
@@ -746,11 +739,11 @@ h4{
 	margin-top:21%;
 }
 
-#leftblock{
+.leftblock{
 	float:left;
 }
 
-#rightblock{
+.rightblock{
 	margin-left:25%;
 	float:right;
 	padding-right:27%;
@@ -758,5 +751,3 @@ h4{
 	z-index:6;
 	margin-top:5%;
 }
-
-
