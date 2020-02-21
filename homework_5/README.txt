@@ -1,2 +1,2 @@
 Extra Credit Work:
-Included an extra product details page (Original Cinnamon Bun) 
+Included an extra product details page for Original Cinnamon Bun (originalproductdetails.html) 
