@@ -1,6 +1,5 @@
 /*Michelle Tsang*/
 /*mtsang1*/
-
 *{
 	margin:0;
 	padding:0;
@@ -14,15 +13,16 @@ body{
 	overflow-x: hidden
 }
 
-
+/*******INDEX.HTML PAGE******/
+/*navigation bar */
 #navbox{
 	border-bottom:1px solid #18A0FB ;
-}
+} 
 
 .topnav {
 	position: relative;
 	overflow: hidden;
-	margin-top: 30px;
+	margin-top: 20px;
 	text-align: center;
 	width: 1100px;
 	margin-left: 69.5%;
@@ -41,7 +41,6 @@ body{
 	font-size: 18px;	
 	line-height: 22px;
 	letter-spacing:  0.08em;
-
 }
 
 .topnav-centered a {
@@ -51,11 +50,10 @@ body{
 	transform: translate(-50%, -50%);
 }
 
-/* Right-aligned section inside the top navigation */
 .topnav-right {
 	float: right;
 }
-
+/*content under navigation bar*/
 #biggercontainer{
 	border-bottom:10px blue;
 }
@@ -67,21 +65,20 @@ body{
 
 #Header {
 	margin: 0 auto;
-	/*does not show border on the bottom of the picture*/
 	border-bottom: 10px #18A0FB;
 }
-
+/*cover photo*/
 #homework5{
 	padding-right:115px;
 	float:left;
 	margin-bottom:12%;
 }
-
+/*border around sign up in navigation bar*/
 .signupbutton{
 	border:1px solid #18A0FB;
 
 }
-
+/*"Get Your Buns Today" styling*/
 h2{
 	font-family: Montserrat;
 	font-style: normal;
@@ -90,23 +87,22 @@ h2{
 	line-height: 61px;
 	display: flex;
 	letter-spacing: -0.015em;
-
 }
-
+/*coverphoto*/
 #coverPhoto{
 	background-image: url("homepagepicture1.png");
 	background-repeat: no-repeat;
 	height: 600px;
 	background-size: 100% 100%;
 }
-
+/*"Get Your Buns Today" styling*/
 #Buns {
 	padding-left:15%;
 	padding-top: 30%;
 	opacity:0.90;
-	border-top: 1px solid #18A0FB;
+	border-top:1px solid #18A0FB;
 }
-
+/*container holding bottom right*/
 #OriginalBuns{
 	background-image: url("roll3.png");
 	background-repeat: no-repeat;
@@ -115,8 +111,7 @@ h2{
 	float:right;
 	width:70%;
 }
-
-
+/*"Our Original Buns..." styling*/
 #Buns2 {
 	padding-left:42%;
 	padding-top: 10%;
@@ -130,19 +125,18 @@ h2{
 	letter-spacing: -0.015em;
 	opacity:0.80;
 }
-
-
+/*button on coverphoto*/
 #topbutton {
 	margin-left: 28%;
 	margin-top:3px;
 }
-
+/*button on bottom right*/
 #bottombutton{
 	margin-left:150px;
 	margin-top:3px;
 	margin-left:58%;
 }
-
+/*applies to both buttons*/
 .button {
   background-color: #18A0FB; 
   border: none;
@@ -163,15 +157,12 @@ h2{
   display: flex;
   align-items: center;
   letter-spacing: 0.15em;
-
 }
 
 .button3 {
 	padding: 15px 15px;
-
 }
-
-
+/*container containing mission statement*/
 #Mission{
 	width: 30%;
 	float:left;
@@ -180,9 +171,7 @@ h2{
 	box-sizing: border-box; 
 	opacity: .75;
 }
-
-
-
+/*styling of "Mission"*/
 h3{
 	font-family: Montserrat;
 	font-style: normal;
@@ -191,7 +180,7 @@ h3{
 	line-height: 72px;
 	letter-spacing: -0.015em;
 }
-
+/*styling of mission statement content*/
 p{
 	font-family: Montserrat;
 	font-style: normal;
@@ -199,10 +188,10 @@ p{
 	font-size: 14px;
 	line-height: 30px;
 	letter-spacing: -0.015em;
-	/*how to just taget learn ?*/
+	/*how to just taget learn more?*/
 	text-decoration: none;
 }
-
+/*"Our Original Buns..." styling */
 h4{
 	font-family: Montserrat;
 	font-style: normal;
@@ -214,8 +203,7 @@ h4{
 	text-align: center;
 	letter-spacing: -0.015em;
 }
-
-
+/*information above copyright label*/
 .navigationforfooter{
 	position:absolute;
 	margin-top:35%;
@@ -224,19 +212,16 @@ h4{
 
 .navigationforfooter ul{
 	list-style:none;
-
 }
 
 .navigationforfooter li{
 	display:inline-block;
-
 }
 
 .navigationforfooter a{
-	padding-left:165px;
+	padding-left:170px;
 }
-
-
+/*copyright label*/
 #footer1{
 	position:absolute;
 	margin-top:220px;
@@ -247,17 +232,17 @@ h4{
 
 .copyrightsymbol{
 	font-size:11px;
+	margin-left:12px;
 }
 
-/* productpage below*/
-
+/******* PRODUCT PAGE *******/
+/*container of all six products*/
 #productcontainer{
 	margin:0px 100px;
 	position:relative;
 	margin-top: 10%;
 }
-
-
+/*left column and right column*/
 #leftcol, 
 #rightcol{
 	width:100%;
@@ -266,19 +251,17 @@ h4{
 	top:0;
 	left:0;
 }
-
+/*left column*/
 #leftcol{
 	margin-left:12%;
 }
-
+/*right column*/
 #rightcol{
 	z-index:1;
 	float:right;
 	margin-left:58%;
 }
-
-
-
+/*product names styling*/
 .productinfo{
 	font-family: Montserrat;
 	font-style: normal;
@@ -289,15 +272,12 @@ h4{
 	text-align: center;
 	letter-spacing: 0.15em;
 	margin-left:10%;
-
-
 }
-
-
+/*original bun (free-gluten) name styling*/
 #freeinfo{
 	margin-left:60px;
 }
-
+/*walnut bun name styling*/
 #walnutinfo{
 	margin-left:8%;
 	font-family: Montserrat;
@@ -310,7 +290,7 @@ h4{
 	letter-spacing: 0.15em;
 	margin-left:12%;
 }
-
+/*pumpkin bun name styling*/
 #pumpkininfo{
 	margin-left:8%;
 	font-family: Montserrat;
@@ -323,11 +303,11 @@ h4{
 	letter-spacing: 0.15em;
 	margin-left:8%;
 }
-
+/*pecan bun name styling*/
 #pecaninfo{
 	margin-left:100px;
 }
-
+/*product prices styling*/
 .productprice {
 	font-family: Montserrat;
 	font-style: normal;
@@ -340,73 +320,66 @@ h4{
 	margin-left:10.5%;
 	margin-bottom: 5%;
 }
-
+/*original bun image*/
 .originalimage{
 	opacity: 0.90;
 }
-
-
+/*blackberry bun image*/
 #blackberryimage{
 	opacity:0.85;
 }
-
-
+/*pumpkin bun image*/
 #pumpkinimage{
 	opacity:0.90;
 }
-
+/*caramel bun image*/
 #caramelimage{
 	opacity:0.90;
 }
-
-
+/*information above copyright label*/
 .navigationforfooter2{
-	margin-top:99%;
+	margin-top:97%;
 	float:left;
+
 }
 
 .navigationforfooter2 ul{
 	list-style:none;
-
 }
 
 .navigationforfooter2 li{
 	display:inline-block;
-
 }
 
 .navigationforfooter2 a{
-	padding-left:150px;
+	padding-left:170px;
 }
-
-
+/*copyright label*/
 #footer2{
 	position:absolute;
-	padding-top:87%;
-	padding-left:45.7%;
+	margin-top:87%;
+	margin-left:43.5%;
 	z-index:5;
 }
 
-
-/*productdetailspage for walnut*/
-
+/*******PRODUCT DETAILS PAGE*******/
 #main{
 	margin:0px 100px;
 }
-
+/*container for content of page*/
 .container3{
 	margin:0px 100px ;
 }
-
+/*bun image on left side*/
 #visual{
 	position:relative;
 	float:left;
 }
-
+/*container for #visual*/
 .left-column{
 	margin-top:90px;
 }
-
+/*review stars next to product name*/
 #stars{
 	float:right;
 	position:absolute;
@@ -414,8 +387,7 @@ h4{
 	margin-left:2%;
 	margin-top:3%;
 }
-
-
+/*product title styling*/
 #title{
 	font-family: Montserrat;
 	font-style: normal;
@@ -431,7 +403,7 @@ h4{
 	float:right;
 	margin-left:40.5%;
 }
-
+/*number of reviews*/
 #reviewtitle{
 	font-family: Montserrat;
 	font-style: normal;
@@ -447,7 +419,7 @@ h4{
 	margin-left:47.5%;
 	margin-top:45px;
 }
-
+/*product description*/
 #description{
 	font-family: Montserrat;
 	font-style: normal;
@@ -459,9 +431,20 @@ h4{
 	margin-top:6.5%;
 	margin-left:40.5%;
 	z-index:3;
-
 }
-
+/*glazing button label*/
+#glazingtitle{
+	margin-left:40.5%;
+	margin-top:17%;
+}
+/*quantity button label*/
+#quantitytitle{
+	margin-left:40.5%;
+	margin-top:19.5%;
+	position:absolute;
+	z-index:3;
+}
+/*glazing buttons*/
 .glazingbutton{
 	background-color:#fff;
 	border:none;
@@ -478,7 +461,7 @@ h4{
 	line-height: 30px;
 	letter-spacing: 0.15em;
 }
-
+/*quantity buttons*/
 .quantitybutton{
 	background-color:#fff;
 	border:none;
@@ -495,16 +478,15 @@ h4{
 	line-height: 30px;
 	letter-spacing: 0.15em;
 }
-
-
+/*hover over glazing buttons for different color*/
 .glazingbutton:hover{
 	background-color:#18A0FB;
 }
-
+/*hover over quantity buttons for different color*/
 .btn-group .quantitybutton:hover{
 	background-color:#18A0FB;
 }
-
+/*container for glazing button*/
 .bigglazingbutton{
 	position:absolute;
 	margin-top:16.5%;
@@ -512,13 +494,20 @@ h4{
 	z-index:4;
 	margin-left:47%;
 }
-
+/*container for quantity button*/
 .bigquantitybutton{
 	position:absolute;
 	margin-top: 19.5%;
 	float:right;
 	z-index:4;
 	margin-left:47%;
+}
+/*keeps text in one line inside the button*/
+.addtocartbutton{
+	 white-space:nowrap;
+	 margin-right:50%;
+	 position:absolute;
+	 z-index:3;
 }
 /*"Glazing" title */
 .btn-group h2{
@@ -529,35 +518,29 @@ h4{
 	line-height: 30px;
 	letter-spacing: 0.15em;
 	position:absolute;
-
 }
-
-#glazingtitle{
+/*shipping information below button*/
+.shippinginformation{
+	margin-top:33%;
 	margin-left:40.5%;
-	margin-top:17%;
-}
-
-#quantitytitle{
-	margin-left:40.5%;
-	margin-top:19.5%;
+	z-index:8;
 	position:absolute;
-	z-index:3;
-
+	float:right;
 }
-
+/*allergen content*/
 #allergencontent{
 	margin-left:40.5%;
 	position:absolute;
 	z-index:3;
 	margin-top:13%;
 }
-
+/*container for product price*/
 .totalprice{
 	position:absolute;
 	margin-top:26%;
 	margin-left:64%;
 }
-
+/*product price*/
 #total{
 	font-family: Montserrat;
 	font-style: normal;
@@ -569,17 +552,8 @@ h4{
 	text-align: center;
 	letter-spacing: 0.10em;
 	margin-left:10px;
-
 }
-
-/*keeps text in one line inside the button*/
-.addtocartbutton{
-	 white-space:nowrap;
-	 margin-right:50%;
-	 position:absolute;
-	 z-index:3;
-}
-
+/*pictures of different views of product*/
 .sideview{
 	float:left;
 	margin-right:50%;
@@ -594,7 +568,7 @@ h4{
 #view3{
 	margin-left:20px;
 }
-
+/*"Reviews" title*/
 #review{
 	font-family: Montserrat;
 	font-style: normal;
@@ -608,13 +582,13 @@ h4{
 	margin-top:44%;
 	margin-left:40%;
 }
-
+/*stars in review section*/
 #bottomstars{
 	position:absolute;
 	margin-left:8.8%;
 	margin-top:44.3%;
 }
-
+/*nuumber of reviews in review section*/
 #threereviews{
 	position:absolute;
 	font-family: Montserrat;
@@ -629,7 +603,7 @@ h4{
 	margin-top:44.2%;
 	margin-left:54.2%;
 }
-
+/*number of reviews in review section*/
 #tworeviews{
 	position:absolute;
 	font-family: Montserrat;
@@ -644,7 +618,7 @@ h4{
 	margin-top:44.2%;
 	margin-left:54.2%;
 }
-
+/*container for reviews content*/
 #Reviewsblock{
 	position:absolute;
 	margin-top:47%;
@@ -679,7 +653,6 @@ h4{
 	line-height: 30px;
 	letter-spacing: 0.10em;
 	text-decoration-line: underline;
-
 }
 
 .date{
@@ -690,67 +663,65 @@ h4{
 	line-height: 30px;
 	letter-spacing: 0.10em;
 	position:absolute;
-
 }
-
+/*date of first review*/
 #date1{
 	z-index:7;
 	margin-left:10%;
 	position:absolute;
 	margin-top:7%;
 }
-
+/*name of first review*/
 #name1{
 	z-index:7;
 	margin-left:10%;
 	margin-top:5%;
 	position:absolute;
 }
-
+/*profile picture of first review*/
 #profile1{
 	z-index:8;
 	margin-top:5%;
 	position:absolute;
 	margin-left:5%;
 }
-
+/*date of second review*/
 #date2{
 	z-index:7;
 	margin-left:10%;
 	position:absolute;
 	margin-top:22%;
 }
-
+/*name of second review*/
 #name2{
 	z-index:7;
 	margin-left:10%;
 	margin-top:20%;
 	position:absolute;
 }
-
+/*profile picture of second review*/
 #profile2{
 	z-index:8;
 	margin-top:10.5%;
 	position:absolute;
 	margin-left:5%;
 	margin-top:20%;
-
 }
-
+/*date of third review*/
 #date3{
 	z-index:7;
 	margin-left:10%;
 	position:absolute;
 	margin-top:23%;
 }
-
+/*name of third review*/
 #name3{
 	z-index:7;
 	margin-left:10%;
 	margin-top:21%;
 	position:absolute;
 }
-
+/*profile of third review*/
 #profile3{
 	z-index:8;
 	margin-top:10.5%;
@@ -758,11 +729,11 @@ h4{
 	margin-left:5%;
 	margin-top:21%;
 }
-
+/*container for left side of reviews content*/
 .leftblock{
 	float:left;
 }
-
+/*container for right side of reviews content*/
 .rightblock{
 	margin-left:25%;
 	float:right;

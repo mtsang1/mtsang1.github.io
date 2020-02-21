@@ -1,14 +1,11 @@
-
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <title>Bun Bun Bake Shop</title>
   <link rel="stylesheet" type="text/css" href="style.css"/>
 </head>
-
-<body>
-<!--  div id="Header"  -->
+  
+  <!-- navigation bar -->
   <div id="navbox">
     <div class="topnav">
       <div class="topnav topnav-right">
@@ -18,61 +15,43 @@
       </div>
     </div>
   </div>
+  <div class= "topnav-centered">
+    <a href="index.html"><img id="homework5" src="Component1.png" alt="logo" height= "55" width= "370" class="logo"></a>
+  </div>
 
-    <div class= "topnav-centered">
-      <a href="index.html"><img id="homework5" src="Component1.png" alt="logo" height= "55" width= "370" class="logo"></a>
-    </div>
-    
+  <!-- content of this page -->
   <main class="container3">
 
-   <!-- Left Column/ Cinnamon bun image--> 
+   <!-- bun product image on left side--> 
     <div class="left-column">
       <img id="visual" src="original.png" alt="original cinnamon bun" height="450" width="550">
     </div>
 
-    <!-- Right Column -->
+    <!-- right column -->
     <div class="right-column">
-
-      <!-- Product Description -->
+      <!-- product sescription -->
       <div class="product-description">
         <h1 id=title>Original</h1>
         <a id="stars" href="#Reviewsblock"><img src="reviews.png" alt="stars" height="30" width="100"></a>
         <a href="#Reviewsblock"><h2 id=reviewtitle>(2 reviews)</h2></a>
         <p id="description">Lorem ipsum dolor sit amet, an vis diceret <br> ancillae, at modus melius eam. Oratio <br> luptatum splendide ad quo, ex corrumpit sadipscing </p>
         <p id="allergencontent"><em>Allergen contents: Lorem ipsum dolor sit amet, an vis diceret ancillae, at modus melius eam.</em></p>
+        <p class="shippinginformation"><em> Shipping information: Lorem ipsum dolor sit amet, an vis diceret ancillae, at modus melius eam </em></p> 
       </div>
+    </div>
 
-      <!-- Glazing and quantity options-->
-      <!--  
-      <div class="btn-group">
-        <h2 id="glazingtitle"> Glazing </h2>
-        
-        <div class="bigglazingbutton">
-          <button class="glazingbutton"> None</button>
-          <button class="glazingbutton"> Sugar-Milk</button>
-          <button class="glazingbutton"> Vanilla-Milk</button>
-          <button class="glazingbutton"> Double-Chocolate</button>
-        </div>
-
-          <h2 id="quantitytitle">Quantity </h2>
-          <div class="bigquantitybutton">
-            <button class="quantitybutton"> 1 roll</button>
-            <button class="quantitybutton"> 3 rolls</button>
-            <button class="quantitybutton"> 6 rolls</button>
-            <button class="quantitybutton"> 12 rolls</button>
-        
-          </div>
-        -->
+        <!-- options -->
         <div class="btn-group">
+          <!-- glazing options -->
           <h2 id="glazingtitle"> Glazing </h2>
-
+          <!-- glazing options -->
           <div class="bigglazingbutton">
             <button  class= glazingbutton id=gbutton onclick="setColor()">None</button>
             <button  class= glazingbutton id=gbutton2 onclick="setColor2()">Sugar-Milk</button>
             <button  class=glazingbutton id=gbutton3 onclick="setColor3()">Vanilla-Milk</button>
             <button  class=glazingbutton id=gbutton4 onclick="setColor4()">Double-Chocolate</button>
           </div>
-
+          <!-- js to make buttons clickable -->
           <script>
           var countb1 = 1;
               function setColor() {
@@ -126,16 +105,15 @@
                   }
               }
           </script>
-
-          <h2 id="quantitytitle"> Quantity </h2>
-          
+          <!-- quantity options -->
+          <h2 id="quantitytitle"> Quantity </h2>      
           <div class="bigquantitybutton">
             <button  class= quantitybutton id=qbutton onclick="setColor5()">1 roll</button>
             <button  class= quantitybutton id=qbutton2 onclick="setColor6()">3 rolls</button>
             <button  class= quantitybutton id=qbutton3 onclick="setColor7()">6 rolls</button>
             <button  class= quantitybutton id=qbutton4 onclick="setColor8()">12 rolls</button>
           </div>
-
+          <!-- js to make buttons clickable -->
           <script>
           var countb1 = 1;
               function setColor5() {
@@ -190,16 +168,14 @@
               }
           </script>
 
-
-
-        <!-- Total price -->
+        <!-- total price of product-->
         <div class="totalprice">
           <h1 id="total"> Total: $X </h1>
-          <button class="addtocartbutton button button3"> Add to Cart </button>
+          <button class="addtocartbutton button button3" onclick= "window.location.href= './addedtocart.html';"> Add to Cart </button>
         </div>
 
-        <!-- Pictures of product from different angles -->
-        <div class=sideview>
+        <!-- pictures of product from different angles -->
+        <div class="sideview">
           <img id="view1" src="view1.png" alt="walnut cinnamon bun view 1" height="100" width = "150">
           <img id="view2" src="view2.png" alt="walnut cinnamon bun view 2" height="100" width = "150">
           <img id="view3" src="view3.png" alt="walnut cinnamon bun view 3" height="100" width = "150">
@@ -207,35 +183,35 @@
       </div>
     </div>
       
-        <!-- Reviews Section -->
+        <!-- reviews title -->
         <div id="Reviews">
-
           <a><img id="bottomstars" src="reviews.png" alt="stars" height="30" width="100"></a>
           <h1 id=review> Reviews </h1>
           <h2 id="tworeviews"> (2) </h2>
         </div>
 
+        <!-- actual customer reviews below review title -->
         <div id="Reviewsblock">
-
+            <!-- profile picture, username, and date of review -->
             <div class= "leftblock">
               <a><img id="profile1" src="circle.png" alt="user profile" height="50" width="50"></a>
               <h1 class="username" id="name1"> username </h1>
               <h2 class="date" id="date1"> date </h2>
             </div>
-
+            <!-- ratings, review content, and helpfulness -->
             <div class="rightblock">
               <a><img src="reviews.png" alt="stars" height="20" width="70"></a>
               <p>Lorem ipsum dolor sit amet, an vis diceret ancillae, at modus melius eam. Oratio luptatum splendide ad quo, ex corrumpit sadipscing vim, eum ad indoctum volutpat conclusionemque.</p>
               <p><em>19 people found this helpful</em></p>
               <button class="helpfulbutton"></button>
             </div>
-
+            <!-- profile picture, username, and date of review -->
             <div class= "leftblock">
               <a><img id="profile2" src="circle.png" alt="user profile" height="50" width="50"></a>
               <h1 class="username" id="name2"> username </h1>
               <h2 class="date" id="date2"> date </h2>
             </div>
-
+            <!-- ratings, review content, and helpfulness -->
             <div class="rightblock">
               <a><img src="reviews.png" alt="stars" height="20" width="70"></a>
               <p>Lorem ipsum dolor sit amet, an vis diceret ancillae, at modus melius eam. Oratio luptatum splendide ad quo, ex corrumpit sadipscing vim, eum ad indoctum volutpat conclusionemque.</p>
@@ -243,12 +219,6 @@
               <button class="helpfulbutton"></button>
             </div>
 
-
         </div>
-
   </main>
-
-
-</body>
-
 </html>
