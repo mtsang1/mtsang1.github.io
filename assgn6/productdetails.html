@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bun Bun Bake Shop</title>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+  <script type="text/javascript" src="script.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</head>
+
+  <!-- navigation bar -->
+  <div id="navbox">
+    <div class="topnav">
+      <div class="topnav topnav-right">
+        <a href="product.html">Order</a> 
+        <a id="cartlabel" href="cart.html">Cart:</a> 
+        <a id="cartnumber" href="cart.html">0</a>
+        <a class="signupbutton" href="#">Sign Up</a> 
+      </div>
+    </div>
+  </div>
+  <div class= "topnav-centered">
+    <a href="index.html"><img id="homework5" src="images/Component1.png" alt="logo" height= "55" width= "370" class="logo"></a>
+  </div>
+
+  <!-- content of this page -->
+  <main class="container3">
+
+   <!-- bun prouct image on left side --> 
+    <div class="left-column">
+      <!--
+      <img id="view0" src="view0.png" alt="walnut cinnamon bun" height="450" width="550">
+      -->
+      <img data-image="none" id="none" src="images/view0.png" alt="walnut cinnamon bun">
+      <img data-image="sugarMilk" id="sugarMilk" src="images/view1.png" alt="walnut cinnamon bun">
+      <img data-image="vanillaMilk"  id="vanillaMilk" class="active" src="images/view2.png" alt="walnut cinnamon bun">
+      <img data-image="doubleChocolate"  id="doubleChocolate" src="images/view3.png" alt="walnut cinnamon bun">
+
+
+    </div>
+  
+
+    </div>
+
+    <!-- right column -->
+    <div class="right-column">
+      <!-- product description -->
+      <div class="product-description">
+        <h1 id=title>Walnut</h1>
+        <a id="stars" href="#Reviewsblock"><img src="images/reviews.png" alt="stars" height="30" width="100"></a>
+        <a href="#Reviewsblock"><h2 id=reviewtitle>(3 reviews)</h2></a>
+        <p id="description">Sweet toasted walnuts topped on soft and fluffy <br> cinnamon buns rich in flavor.Lorem ipsum dolor <br> sit amet, an vis diceret ancillae, at modus melius eam.</p>
+        <p id="allergencontent"><em>Allergen contents: Lorem ipsum dolor sit amet, an vis diceret ancillae, at modus melius eam.</em></p>
+        <p class="shippinginformation"><em> Shipping information: Lorem ipsum dolor sit amet, an vis diceret ancillae, at modus melius eam </em></p> 
+      </div>
+    </div>
+
+        <h2 id="glazingtitle"> Glazing </h2>
+        <!-- options -->
+        <div class="btn-group">
+
+          <ul class="glazing-now">
+            <li>
+              <input data-image="none" value="none" type="radio" id="gbutton" name="glazing" />
+              <label for="gbutton">None</label>
+            </li>
+            <li>
+              <input data-image="sugarMilk" value="sugarMilk" type="radio" id="gbutton2" name="glazing" />
+              <label for="gbutton2">Sugar-Milk</label>
+            </li>
+            <li>
+              <input data-image= "vanillaMilk" value="vanillaMilk" type="radio" id="gbutton3" name="glazing" checked="checked" />
+              <label for="gbutton3">Vanilla-Milk</label>
+            </li>
+            <li>
+              <input data-image="doubleChocolate" value="doubleChocolate" type="radio" id="gbutton4" name="glazing" />
+              <label for="gbutton4">Double-Chocolate</label>
+            </li>
+          </ul>
+        </div>
+
+
+        <h2 id="quantitytitle"> Quantity </h2>
+        <!-- options -->
+        <div class="bigquantitybutton">
+
+          <ul class="quantity-now">
+            <li>
+              <input type="radio" id="gbutton5" class= "EventCheckBox" name="quantity" checked="checked" value=
+            "0"/>
+              <label for="gbutton5">1 roll</label>
+            </li>
+            <li>
+              <input type="radio" id="gbutton6" class= "EventCheckBox" name="quantity" value="1" />
+              <label for="gbutton6">3 rolls</label>
+            </li>
+            <li>
+              <input type="radio" id="gbutton7" class= "EventCheckBox" name="quantity" value= "2"/>
+              <label for="gbutton7">6 rolls</label>
+            </li>
+            <li>
+              <input type="radio" id="gbutton8" class= "EventCheckBox" name="quantity" value="3" />
+              <label for="gbutton8">12 rolls</label>
+            </li>
+          </ul>
+        </div>
+
+          
+        <!--  
+          <h2 id="glazingtitle"> Glazing </h2>
+          
+          <div class="bigglazingbutton">
+            <button  class= glazingbutton id=gbutton onclick="setColor()">None</button>
+            <button  class= glazingbutton id=gbutton2 onclick="setColor2()">Sugar-Milk</button>
+            <button  class=glazingbutton id=gbutton3 onclick="setColor3()">Vanilla-Milk</button>
+            <button  class=glazingbutton id=gbutton4 onclick="setColor4()">Double-Chocolate</button>
+          </div>
+
+        <h2 id="quantitytitle"> Quantity </h2>
+        <div class="bigquantitybutton">
+          <button  class= quantitybutton id=qbutton onclick="setColor5()">1 roll</button>
+          <button  class= quantitybutton id=qbutton2 onclick="setColor6()">3 rolls</button>
+          <button  class= quantitybutton id=qbutton3 onclick="setColor7()">6 rolls</button>
+          <button  class= quantitybutton id=qbutton4 onclick="setColor8()">12 rolls</button>
+        </div>
+        -->
+
+        <!-- total price of product-->
+        <div class="totalprice">
+          <h1 id="total"> Total: $X </h1>
+          <button name="addtocartbutton" class="addtocartbutton button button3" id="count"> Add to Cart </button>
+        </div>
+
+        <!-- pictures of product from different angles -->
+        <div class="sideview">
+          <img id="view0" onclick= "change_img(this)" src="images/view0.png" alt="walnut cinnamon bun" height="100" width="120">
+          <img id="view1"  src="images/view1.png" onclick= "change_img(this)" alt="walnut cinnamon bun view 1" height="100" width = "120">
+          <img id="view2" onclick= "change_img(this)" src="images/view2.png" alt="walnut cinnamon bun view 2" height="100" width = "120">
+          <img id="view3" onclick= "change_img(this)" src="images/view3.png" alt="walnut cinnamon bun view 3" height="100" width = "120">
+        </div>
+      </div>
+      
+        <!-- reviews title  -->
+        <div id="Reviews">
+          <a><img id="threereviews" src="images/reviews.png" alt="stars" height="30" width="100"></a>
+          <h1 id=review> Reviews(3) </h1>
+        </div>
+
+        <!-- actual customer reviews below review title -->
+        <div id="Reviewsblock">
+            <!-- profile picture, username, and date of review -->
+            <div class= "leftblock">
+              <a><img id="profile1" src="images/circle.png" alt="user profile" height="50" width="50"></a>
+              <h1 class="username" id="name1"> username </h1>
+              <h2 class="date" id="date1"> date </h2>
+            </div>
+            <!--  ratings, review content, and helpfulness -->
+            <div class="rightblock">
+              <a><img class="commentstars" src="images/reviews.png" alt="stars" height="20" width="70"></a>
+              <p class="example">Lorem ipsum dolor sit amet, an vis diceret ancillae, at modus melius eam. Oratio luptatum splendide ad quo, ex corrumpit sadipscing vim, eum ad indoctum volutpat conclusionemque.</p>
+              <p><em>19 people found this helpful</em></p>
+              <button class="helpfulbutton"> Helpful</button>
+            </div>
+            <!-- profile picture, username, and date of review -->
+            <div class= "leftblock">
+              <a><img id="profile2" src="images/circle.png" alt="user profile" height="50" width="50"></a>
+              <h1 class="username" id="name2"> username </h1>
+              <h2 class="date" id="date2"> date </h2>
+            </div>
+            <!--  ratings, review content, and helpfulness -->
+            <div class="rightblock">
+              <a><img class="commentstars" src="images/reviews.png" alt="stars" height="20" width="70"></a>
+              <p class="example">Lorem ipsum dolor sit amet, an vis diceret ancillae, at modus melius eam. Oratio luptatum splendide ad quo, ex corrumpit sadipscing vim, eum ad indoctum volutpat conclusionemque.</p>
+              <p><em>19 people found this helpful</em></p>
+              <button class="helpfulbutton">Helpful</button>
+            </div>
+            <!-- profile picture, username, and date of review -->
+            <div class= "leftblock">
+              <a><img id="profile3" src="images/circle.png" alt="user profile" height="50" width="50"></a>
+              <h1 class="username" id="name3"> username </h1>
+              <h2 class="date" id="date3"> date </h2>
+            </div>
+            <!--  ratings, review content, and helpfulness -->
+            <div class="rightblock">
+              <a><img class="commentstars" src="images/reviews.png" alt="stars" height="20" width="70"></a>
+              <p class="example">Lorem ipsum dolor sit amet, an vis diceret ancillae, at modus melius eam. Oratio luptatum splendide ad quo, ex corrumpit sadipscing vim, eum ad indoctum volutpat conclusionemque.</p>
+              <p><em>19 people found this helpful</em></p>
+              <button class="helpfulbutton"> Helpful</button>
+            </div>
+
+        </div>
+
+        <div class="modal">
+          <div class="modalcontainer">
+            <span class="childbutton">&times;</span>
+            <h1>You've added 1 item to your cart! </h1>
+          </div>
+        </div>    
+
+        <!-- input jQuery here because doesn't work in script.js document for some reason -->
+        <script>
+
+          // changes glazing image open glazing option
+          $(function(){
+            $('input[name="glazing"]:radio').on("change", function(){   
+             changeGlazingPicture();
+           });
+            changeGlazingPicture();    
+          });
+
+          //changes price based on quantity
+          $(function(){
+            $('input[name="quantity"]:radio').on("change", function(){   
+             checkTotal();
+           });
+            checkTotal();    
+          });
+
+
+          // counts number of items in cart
+          $('#count').click(function() {
+            $('#cartnumber').html(function(i, val) { return val*1+1 });
+          });
+ 
+        //
+      </script>
+  </main>
+</html>
