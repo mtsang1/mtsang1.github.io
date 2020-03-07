@@ -754,7 +754,28 @@ h4{
 	opacity:60%;
 }
 
+#heart{
+	margin-top:20%;
+	margin-left:110%;
+	z-index:100;
+	position:absolute;
+	font-size:20px;
+	width:70px;
+	border:white;
+	padding:0px;
+}
 
+#wishlisttitle{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	float:right;
+	position:absolute;
+	z-index:300;
+	margin-top:29.5%;
+	margin-left:78%;
+}
 
 /*"Reviews" title*/
 #review{
@@ -1143,59 +1164,26 @@ position:absolute;
 	color:black;
 }
 
-/******
-#shoppingtitle{
+/*******WISH LIST*******/
+/*wish list title*/
+.titlee2{
+	text-align:center;
+	margin-left:46%;
 	font-family: Montserrat;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 30px;
-	align-items: center;
-	text-align: center;
-	letter-spacing: 0.05em;
-}
-
-#leftcontainer{
-	margin-left:18%;
-	margin-top:8%;
-}
-
-#product1{
-	margin-top:7%;
-}
-
-#shoppingtitle{
-	padding-bottom: 3%;
-	position:absolute;
-}
-
-#walnutcart {
-	font-family: Montserrat;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 21px;
-	line-height: 30px;
 	letter-spacing: 0.10em;
-	position:relative;
-
+	color: #18A0FB; 
 }
-
-#productcartinfo{
+/*add to cart button*/
+.button4{
+	margin-top:20%;
 	position:absolute;
-	z-index:100;
-	margin-left:15%;
-	margin-bottom:20%;
+	z-index:1000;
 }
 
-#walnutprice{
-	font-family: Montserrat;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 19px;
-	line-height: 30px;
-	letter-spacing: 0.10em;
-	position:absolute;
-}
-
-#rightcontainer{
-	float:right;
+#cartbutton2{
+	margin-top:17%;
+	margin-left:55%;
 }

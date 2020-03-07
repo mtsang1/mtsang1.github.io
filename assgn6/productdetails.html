@@ -2,17 +2,16 @@
 <html lang="en">
 <head>
   <title>Bun Bun Bake Shop</title>
-  <link rel="stylesheet" type="text/css" href="style.css"/>
+  <link rel="stylesheet" href="style.css"/>
   <script type="text/javascript" src="script.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
 </head>
 
   <!-- navigation bar -->
   <div id="navbox">
     <div class="topnav">
       <div class="topnav topnav-right">
-        <a href="product.html">Order</a> 
+        <a href="wishlist.html">&#9825; WishList</a> 
         <a id="cartlabel" href="cart.html">Cart:</a> 
         <a id="cartnumber" href="cart.html">0</a>
         <a class="signupbutton" href="#">Sign Up</a> 
@@ -28,18 +27,11 @@
 
    <!-- bun prouct image on left side --> 
     <div class="left-column">
-      <!--
-      <img id="view0" src="view0.png" alt="walnut cinnamon bun" height="450" width="550">
-      -->
+
       <img data-image="none" id="none" src="images/view0.png" alt="walnut cinnamon bun">
       <img data-image="sugarMilk" id="sugarMilk" src="images/view1.png" alt="walnut cinnamon bun">
       <img data-image="vanillaMilk"  id="vanillaMilk" class="active" src="images/view2.png" alt="walnut cinnamon bun">
       <img data-image="doubleChocolate"  id="doubleChocolate" src="images/view3.png" alt="walnut cinnamon bun">
-
-
-    </div>
-  
-
     </div>
 
     <!-- right column -->
@@ -56,9 +48,8 @@
     </div>
 
         <h2 id="glazingtitle"> Glazing </h2>
-        <!-- options -->
+        <!-- glazing options -->
         <div class="btn-group">
-
           <ul class="glazing-now">
             <li>
               <input data-image="none" value="none" type="radio" id="gbutton" name="glazing" />
@@ -79,11 +70,9 @@
           </ul>
         </div>
 
-
         <h2 id="quantitytitle"> Quantity </h2>
-        <!-- options -->
+        <!-- quantity options -->
         <div class="bigquantitybutton">
-
           <ul class="quantity-now">
             <li>
               <input type="radio" id="gbutton5" class= "EventCheckBox" name="quantity" checked="checked" value=
@@ -104,33 +93,14 @@
             </li>
           </ul>
         </div>
-
-          
-        <!--  
-          <h2 id="glazingtitle"> Glazing </h2>
-          
-          <div class="bigglazingbutton">
-            <button  class= glazingbutton id=gbutton onclick="setColor()">None</button>
-            <button  class= glazingbutton id=gbutton2 onclick="setColor2()">Sugar-Milk</button>
-            <button  class=glazingbutton id=gbutton3 onclick="setColor3()">Vanilla-Milk</button>
-            <button  class=glazingbutton id=gbutton4 onclick="setColor4()">Double-Chocolate</button>
-          </div>
-
-        <h2 id="quantitytitle"> Quantity </h2>
-        <div class="bigquantitybutton">
-          <button  class= quantitybutton id=qbutton onclick="setColor5()">1 roll</button>
-          <button  class= quantitybutton id=qbutton2 onclick="setColor6()">3 rolls</button>
-          <button  class= quantitybutton id=qbutton3 onclick="setColor7()">6 rolls</button>
-          <button  class= quantitybutton id=qbutton4 onclick="setColor8()">12 rolls</button>
-        </div>
-        -->
-
         <!-- total price of product-->
         <div class="totalprice">
           <h1 id="total"> Total: $X </h1>
           <button name="addtocartbutton" class="addtocartbutton button button3" id="count"> Add to Cart </button>
+          <button class=heart id=heart>&#9825;</button>
         </div>
-
+      <span id=wishlisttitle>ADD TO WISHLIST</span>
+        
         <!-- pictures of product from different angles -->
         <div class="sideview">
           <img id="view0" onclick= "change_img(this)" src="images/view0.png" alt="walnut cinnamon bun" height="100" width="120">
@@ -138,7 +108,6 @@
           <img id="view2" onclick= "change_img(this)" src="images/view2.png" alt="walnut cinnamon bun view 2" height="100" width = "120">
           <img id="view3" onclick= "change_img(this)" src="images/view3.png" alt="walnut cinnamon bun view 3" height="100" width = "120">
         </div>
-      </div>
       
         <!-- reviews title  -->
         <div id="Reviews">
@@ -197,9 +166,10 @@
           </div>
         </div>    
 
-        <!-- input jQuery here because doesn't work in script.js document for some reason -->
+        <!-- input some of JS code here because console reads  
+        undefined or doesn't work for some reason when 
+        placed in script.js -->
         <script>
-
           // changes glazing image open glazing option
           $(function(){
             $('input[name="glazing"]:radio').on("change", function(){   
@@ -207,7 +177,6 @@
            });
             changeGlazingPicture();    
           });
-
           //changes price based on quantity
           $(function(){
             $('input[name="quantity"]:radio').on("change", function(){   
@@ -215,14 +184,15 @@
            });
             checkTotal();    
           });
-
-
           // counts number of items in cart
           $('#count').click(function() {
             $('#cartnumber').html(function(i, val) { return val*1+1 });
           });
- 
-        //
+          //changing the color of the wish list heart to black
+          document.getElementById("heart").addEventListener("click", myFunction);
+          function myFunction() {
+            document.getElementById("heart").innerHTML = '\u2665';
+          }
       </script>
   </main>
 </html>
