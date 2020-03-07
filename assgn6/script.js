@@ -30,12 +30,6 @@
             var newElement= document.getElementById(img);
             newElement.className = 'active';
         }
-
-
-        function change_img(image) {
-          var container = document.getElementById("none");
-          container.src = image.src;
-          }
         // modal popup box
         window.onload=function(){
         var modal = document.querySelector(".modal");
@@ -55,5 +49,9 @@
         closeButton.addEventListener("click", toggleModal);
         window.addEventListener("click", windowOnClick);
       }
-
+      // changes views of the product by clicking side image
+      function change_img(image) {
+        var container = document.getElementById("sugarMilk");
+        container.src = image.src;
+      }
 

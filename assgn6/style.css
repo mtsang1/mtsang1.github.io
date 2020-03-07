@@ -469,7 +469,6 @@ h4{
 	margin-left:51%;
 	position:absolute;
 	z-index:21;
-
 }
 
 .glazing-now {
@@ -502,7 +501,6 @@ h4{
 	font-style: normal;
 	font-weight: normal;
 	letter-spacing: 0.15em;
-
 }
 
 .glazing-now input[type="radio"] {
@@ -598,7 +596,6 @@ h4{
 .quantity-now label:hover {
   background: #18A0FB;
 }
-
 /*keeps text in one line inside the button*/
 .addtocartbutton{
 	 white-space:nowrap;
@@ -606,7 +603,6 @@ h4{
 	 position:absolute;
 	 z-index:3;
 }
-
 /*modal*/
 .modal {
         position: fixed;
@@ -618,43 +614,36 @@ h4{
         opacity: 0;
         visibility: hidden;
         z-index:500;
-  
-    }
-    .modalcontainer{
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        background-color: white;
-        padding:10px;
-        font-family: Montserrat;
-				font-style: normal;
-				font-weight: normal;
-				letter-spacing: 0.15em;
-				font-size:18px;
+}
 
+.modalcontainer{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding:10px;
+    font-family: Montserrat;
+		font-style: normal;
+		font-weight: normal;
+		letter-spacing: 0.15em;
+		font-size:18px;
+}
 
-    }
-    .childbutton {
-        background-color: lightgray;
-        float: right;
-        text-align: center;
-        cursor: pointer;
-        padding:6px;
-        border-radius: 2px;
-    }
-  
-    .visiblemodal {
-        opacity: 1;
-        visibility: visible;
-  
-   
-    }
+.childbutton {
+    background-color: lightgray;
+    float: right;
+    text-align: center;
+    cursor: pointer;
+    padding:6px;
+    border-radius: 2px;
+}
 
-
-/*draft3*/
-
-
+.visiblemodal {
+    opacity: 1;
+    visibility: visible;
+}
+/*changing product image based on button*/
 .left-column img {
   width: 38%;
   height:440px;
@@ -665,15 +654,11 @@ h4{
   transition: all 0.3s ease;
   margin-top:13.5%;
   margin-left:9.5%;
-
 }
  
 .left-column img.active {
   opacity: 1;
 }
-
-
-
 /*shipping information below button*/
 .shippinginformation{
 	margin-top:33%;
@@ -717,7 +702,6 @@ h4{
 	margin-left:3%;
 }
 
-
 #view0{
 	margin-right:20px;
 }
@@ -730,41 +714,37 @@ h4{
 	margin-right:20px;
 }
 
-
 .sideview{
 	cursor:pointer;
 }
 
 #view1:hover{
 	opacity:60%;
-
 }
 
 #view2:hover{
 	opacity:60%;
-
 }
 
 #view3:hover{
 	opacity:60%;
-
 }
 
 .sideview #view0:hover{
 	opacity:60%;
 }
-
+/*heart next to wishlist*/
 #heart{
 	margin-top:20%;
-	margin-left:110%;
+	margin-left:115%;
 	z-index:100;
 	position:absolute;
 	font-size:20px;
-	width:70px;
+	width:20px;
 	border:white;
 	padding:0px;
 }
-
+/*wish list title*/
 #wishlisttitle{
 	font-family: Montserrat;
 	font-style: normal;
@@ -953,12 +933,12 @@ h4{
 	margin-top:5%;
 }
 
-/*Draft*/
-
+/****SHOPPING CART*******/
+/*navigation bar*/
 #navbox2{
 	height:50px;
 }
-
+/*title of shopping cart*/
 .titlee {
 font-family: Montserrat;
 font-weight: bold;
@@ -972,10 +952,9 @@ margin-top:4%;
 margin-left:17%;
 z-index:40;
 position:absolute;
-
-
 }
  
+ /*container for product item*/
 .itemm {
   padding: 20px 30px;
   height: 120px;
@@ -985,28 +964,18 @@ position:absolute;
   margin-left:10%;
   height:200px;
 }
- 
- /*
-.itemm:nth-child(3) {
-  border-top:  1px solid #E1E8EE;
-
-}
-*/
-
 .imagee {
   margin-left: 70px;
   margin-top:11%;
 }
- 
- /*Let’s add some basic style to  product name and description.*/
+/*add to cart button*/
 #cartbutton{
 	z-index:110;
 	position:absolute;
 	margin-left:54.5%;
 	margin-top:30px;
-
 }
-
+/*container for each side of cart page*/
 .descriptionn {
   padding-top: 80px;
   padding-left:20px;
@@ -1016,7 +985,6 @@ position:absolute;
   margin-left:190px;
   margin-top:6px;
   padding:40px 20px;
-
 }
  
 .descriptionn span {
@@ -1038,7 +1006,6 @@ position:absolute;
 .descriptionn span:last-child {
   font-weight: 300;
   margin-top: 35px;
-
 }
 
 .quantityy {
@@ -1048,26 +1015,20 @@ position:absolute;
   position:absolute;
 }
 
-
 .descriptionn1 span {
-
   font-family: Montserrat;
 	font-style: normal;
 	font-weight: 500;
 	font-size: 18px;
 	letter-spacing: 0.10em;
-
-
-	}
+}
  
 .descriptionn1  span:first-child {
   margin-bottom: 10px;
   font-weight:bold;
   font-size:25px;
   padding-left:10px;
-
 }
-
 
 .descriptionn1 span:last-child {
   font-weight: 300;
@@ -1079,9 +1040,6 @@ position:absolute;
 #summary{
 	position:absolute;
 	z-index:100;
-
-
-
 }
 
 #producttotal1{
@@ -1097,7 +1055,7 @@ position:absolute;
 	z-index:1001;
 	position:absolute;
 }
-
+/*right container of product page*/
 .rightcontainer{
 	float:right;
 	display:flex;
@@ -1107,9 +1065,9 @@ position:absolute;
 	margin-left:60%;
 	width:300px;
 	padding-bottom:120px;
-
 }
-
+/*product description for product page
+and wishlist*/
 .lolol{
 	display:flex;
 }
@@ -1139,7 +1097,6 @@ position:absolute;
 	width:300px;
 	margin-right:20%;
 	border-top:1px solid #18A0FB;
-
 }
 
 #totalamount1{
