@@ -606,7 +606,6 @@ h4{
 /*carousel box*/
 .carouselbox {
   position: relative;
-  margin: 1;
   border: 1px solid #18A0FB;
   overflow: hidden;
   margin-left:50%;
