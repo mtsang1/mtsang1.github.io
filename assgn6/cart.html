@@ -25,14 +25,15 @@
 		<div class="itemm">
 			<!-- product image -->
 			<div class="imagee">
-				<img src="images/view2.png" alt="walnut cinnamon bun" height=130 width=150>
+				<img id= "img" src="images/view2.png" alt="walnut cinnamon bun" height=130 width=150>
 			</div>
 			<!-- product description -->
 			<div class="descriptionn">
-				<span>Walnut (Sugar-Milk Glaze)</span>
-				<span>3 rolls</span>
-				<span>$10.69</span>
+				<span id="txt1">Walnut (Sugar-Milk Glaze)</span>
+				<span id="txt2">3 rolls</span>
+				<span id="txt3">$10.69</span>
 			</div>
+			<input id="btn" type="submit" value='Delete'></input>
 			<!-- product quantity-->
 			<div class="quantityy">
 				<select id="dropdown">
@@ -73,4 +74,21 @@
 		<div>
 			<button id="cartbutton" class="button button3" onclick= "window.location.href= '.addedtocart';" > Continue to Checkout </button>
 		</div>
+</html>
+
+	<!-- JS placed here because doesn't work in script.js -->
+	<script>
+		window.onload=function(){
+			var btn = document.getElementById('btn');
+			btn.onclick = function () {
+				document.getElementById('txt1').remove();
+				document.getElementById('txt2').remove();
+				document.getElementById('txt3').remove();
+				document.getElementById('dropdown').remove();
+				document.getElementById('img').remove();
+				this.remove();
+			};
+		}
+	</script>
+
 </html>

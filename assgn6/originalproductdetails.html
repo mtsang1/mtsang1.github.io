@@ -40,7 +40,7 @@
         <h1 id=title>Original</h1>
         <a id="stars" href="#Reviewsblock"><img src="images/reviews.png" alt="stars" height="30" width="100"></a>
         <a href="#Reviewsblock"><h2 id=reviewtitle>(3 reviews)</h2></a>
-        <p id="description">Our original #1 soft and fluffy <br> cinnamon buns rich in flavor.Lorem ipsum dolor <br> sit amet, an vis diceret ancillae, at modus melius eam.</p>
+        <p id="description">Sweet toasted walnuts topped on soft and fluffy <br> cinnamon buns rich in flavor.Lorem ipsum dolor <br> sit amet, an vis diceret ancillae, at modus melius eam.</p>
         <p id="allergencontent"><em>Allergen contents: Lorem ipsum dolor sit amet, an vis diceret ancillae, at modus melius eam.</em></p>
         <p class="shippinginformation"><em> Shipping information: Lorem ipsum dolor sit amet, an vis diceret ancillae, at modus melius eam </em></p> 
       </div>
@@ -107,6 +107,24 @@
           <img id="view2" onclick= "change_img(this)" src="images/view2.png" alt="walnut cinnamon bun view 2" height="100" width = "120">
           <img id="view3" onclick= "change_img(this)" src="images/view3.png" alt="walnut cinnamon bun view 3" height="100" width = "120">
         </div>
+
+        <div id=carouseltitle> Customers also like these products </div>
+        <div class="carouselbox">
+          <div class="buttons">
+            <button class="left">
+              ◅ <span class="slider">Previous</span>
+            </button>
+            <button class="right">
+              <span class="slider">Next</span> ▻ 
+            </button>
+          </div>
+          <ol class="content">
+            <li class="current"><img src="images/view1.png" onclick= "change_img(this)" alt="walnut cinnamon bun view 1" height="100" width = "120"></li>
+            <li><img src="images/view2.png" onclick= "change_img(this)" alt="walnut cinnamon bun view 1" height="100" width = "120"></li>
+            <li><img src="images/view3.png" onclick= "change_img(this)" alt="walnut cinnamon bun view 1" height="100" width = "120"></li>
+          </ol>
+        </div>
+
       
         <!-- reviews title  -->
         <div id="Reviews">
@@ -142,6 +160,19 @@
               <p><em>19 people found this helpful</em></p>
               <button class="helpfulbutton">Helpful</button>
             </div>
+            <!-- profile picture, username, and date of review -->
+            <div class= "leftblock">
+              <a><img id="profile3" src="images/circle.png" alt="user profile" height="50" width="50"></a>
+              <h1 class="username" id="name3"> username </h1>
+              <h2 class="date" id="date3"> date </h2>
+            </div>
+            <!--  ratings, review content, and helpfulness -->
+            <div class="rightblock">
+              <a><img class="commentstars" src="images/reviews.png" alt="stars" height="20" width="70"></a>
+              <p class="example">Lorem ipsum dolor sit amet, an vis diceret ancillae, at modus melius eam. Oratio luptatum splendide ad quo, ex corrumpit sadipscing vim, eum ad indoctum volutpat conclusionemque.</p>
+              <p><em>19 people found this helpful</em></p>
+              <button class="helpfulbutton"> Helpful</button>
+            </div>
         </div>
 
         <!-- modal box pops after checking out -->
@@ -152,9 +183,9 @@
           </div>
         </div>    
 
+
         <!-- input some of JS code here because console reads  
-        undefined or doesn't work for some reason when 
-        placed in script.js -->
+        undefined or doesn't work when placed in script.js -->
         <script>
           // changes glazing image open glazing option
           $(function(){
@@ -179,6 +210,10 @@
           function myFunction() {
             document.getElementById("heart").innerHTML = '\u2665';
           }
+
+          
+
+
       </script>
   </main>
 </html>
