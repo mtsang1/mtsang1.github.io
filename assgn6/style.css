@@ -485,13 +485,13 @@ h4{
 }
 
 .glazing-now label,
-.glazing-now input {
+	.glazing-now input {
 	display: block;
 	position: absolute;
-  top: 0;
- 	left: 0;
-  right: 0;
-  bottom: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
 	text-align:center;
 	display:inline-block;
 	font-size:12px;
@@ -560,10 +560,10 @@ h4{
 .quantity-now input {
 	display: block;
 	position: absolute;
-  top: 0;
- 	left: 0;
-  right: 0;
-  bottom: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
 	text-align:center;
 	display:inline-block;
 	font-size:12px;
@@ -573,7 +573,6 @@ h4{
 	font-style: normal;
 	font-weight: normal;
 	letter-spacing: 0.15em;
-
 }
 
 .quantity-now input[type="radio"] {
@@ -610,13 +609,16 @@ h4{
   overflow: hidden;
   margin-left:50%;
 }
+
 .right{
 	margin-left:100px;
 }
+
 .content {
   margin: 0;
   padding: 0;
 }
+
 .content li {
   font-size: 100px;
   margin: 0;
@@ -633,8 +635,8 @@ h4{
 .active li {
   position: absolute;
   top: 200px;
-
 }
+
 .active li.current {
   top: 30px;
 }
@@ -658,20 +660,18 @@ h4{
 
 #carouseltitle{
 	margin-left:47%;
-
-
 }
 /*modal*/
 .modal {
-        position: fixed;
-        width: 100%;
-        height: 100%;
-        left: 0;
-        top: 0;
-        background-color: rgba(0, 0, 0, 0.6);
-        opacity: 0;
-        visibility: hidden;
-        z-index:500;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    visibility: hidden;
+    z-index:500;
 }
 
 .modalcontainer{
@@ -682,10 +682,10 @@ h4{
     background-color: white;
     padding:10px;
     font-family: Montserrat;
-		font-style: normal;
-		font-weight: normal;
-		letter-spacing: 0.15em;
-		font-size:18px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 0.15em;
+    font-size:18px;
 }
 
 .childbutton {
@@ -814,9 +814,7 @@ h4{
 	margin-top:30%;
 	margin-left:76%;
 }
-
 /*"Reviews" title*/
-
 #review{
 	font-family: Montserrat;
 	font-style: normal;
