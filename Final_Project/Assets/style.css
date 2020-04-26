@@ -23,6 +23,8 @@ font-weight: normal;
 
 .caption{
 	font-size:18px;
+  letter-spacing:  0.05em;
+  color:#757272
 }
 
 .border{
