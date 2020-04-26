@@ -6,7 +6,7 @@ a:hover{
 	text-decoration: none;
 }
 
-.figure-caption, .labels, #summary, .title1, .label2, .content{
+.figure-caption, .labels, #summary, .title1, .labels2, .content{
 font-family: Thasadith;
 font-style: normal;
 font-weight: normal;
@@ -136,24 +136,36 @@ font-weight: normal;
 /*Content page*/
 .labels2{
   font-size:40px;
-  padding-right:20%;
-  padding-top:7%;
+  width:30%;
+  letter-spacing:  0.1em;
+  margin-top:10%;
+  margin-left:25%;
 }
 
 .content{
   font-size:22px;
-  padding-left:20%;
-  padding-right:20%;
-  padding-top:5%;
+  padding-left:12%;
+  padding-right:5%;
+  margin-top:8%;
+  margin-left:5%;
 }
 
 .carousel-inner{
-  padding-right:30%;
-  padding-left:30%;
+  padding-right:20%;
   opacity:0.8;
+  padding-top:9%;
+  padding-left:5%;
 }
 
 .glyphicon.glyphicon-triangle-left{
   font-size:20px;
   padding-top:30%;
+}
+
+.filler1{
+  color: #F39D9D
+}
+
+.fillerdiv{
+  background-color: #F39D9D
 }
