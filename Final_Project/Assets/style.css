@@ -118,7 +118,7 @@ font-weight: normal;
 }
 
 .parallax{
-  background-image: url("/Users/michelletsang/Documents/GitHub/mtsang1.github.io/Final_Project/Assets/images/ricepaddy.jpg");
+  background-image: url("../Assets/images/ricepaddy.jpg");
 
   /* Set a specific height */
   height: 580px; 
