@@ -6,7 +6,7 @@ a:hover{
 	text-decoration: none;
 }
 
-.figure-caption, .labels, #summary, .title1, .labels2, .content{
+.caption, .labels, #summary, .title1, .labels2, .content{
 font-family: Thasadith;
 font-style: normal;
 font-weight: normal;
@@ -21,7 +21,7 @@ font-weight: normal;
   margin-bottom:10%;
 }
 
-.figure-caption{
+.caption{
 	font-size:18px;
 }
 
