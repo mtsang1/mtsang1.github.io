@@ -15,9 +15,10 @@ font-weight: normal;
 .title1{
 	font-size:40px;
 	width:60%;
-	margin-left:20%;
-  margin-top:15%;
-  color:#FFFFFF;
+  position:absolute;
+  z-index:100;
+  padding:0px;
+  margin-bottom:10%;
 }
 
 .figure-caption{
@@ -120,13 +121,14 @@ font-weight: normal;
   background-image: url("/Users/michelletsang/Documents/GitHub/mtsang1.github.io/Final_Project/Assets/images/ricepaddy.jpg");
 
   /* Set a specific height */
-  height: 600px; 
+  height: 580px; 
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  position:relative;
  }
 
 
