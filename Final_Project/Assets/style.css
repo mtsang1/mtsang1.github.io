@@ -1,0 +1,157 @@
+html{
+	scroll-behavior:smooth;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+.figure-caption, .labels, #summary, .title1, .label2, .content{
+font-family: Thasadith;
+font-style: normal;
+font-weight: normal;
+}
+
+.title1{
+	font-size:40px;
+	width:60%;
+	margin-left:20%;
+  margin-top:15%;
+  color:#FFFFFF;
+}
+
+.figure-caption{
+	font-size:18px;
+}
+
+.border{
+	border-width:5px !important;
+}
+
+#title{
+	padding-top:20%;
+}
+#description{
+	letter-spacing:  0.05em;
+	padding-top:25px;
+	font-size:35px;
+}
+
+#summary{
+	font-size:22px;
+	padding-top:40px;
+	padding-bottom:10px;
+	letter-spacing:0.1em;
+	
+}
+
+#banner{
+	opacity:0.80;
+	height:600px;
+}
+
+.labels{
+	font-size: 25px;
+	letter-spacing:  0.1em;
+	padding-bottom:40px;
+}
+
+
+.imagehover {
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.imagehover:hover{
+  opacity:0.3;
+}
+
+
+.glyphicon.glyphicon-triangle-bottom{
+	font-size:50px;
+}
+
+
+
+.bounce {
+  display: inline-block;
+  position: relative;
+  -moz-animation: bounce 0.5s infinite linear;
+  -o-animation: bounce 0.5s infinite linear;
+  -webkit-animation: bounce 0.5s infinite linear;
+  animation: bounce 0.5s infinite linear;
+  colr:000;
+}
+
+@-webkit-keyframes bounce {
+    0% { top: 0; }
+    50% { top: -0.2em; }
+    70% { top: -0.2em; }
+    100% { top: 0; }
+}
+@-moz-keyframes bounce {
+    0% { top: 0; }
+    50% { top: -0.2em; }
+    70% { top: -0.2em; }
+    100% { top: 0; }
+}
+@-o-keyframes bounce {
+    0% { top: 0; }
+    50% { top: -0.2em; }
+    70% { top: -0.2em; }
+    100% { top: 0; }
+}
+@-ms-keyframes bounce {
+    0% { top: 0; }
+    50% { top: -0.2em; }
+    70% { top: -0.2em; }
+    100% { top: 0; }
+}
+@keyframes bounce {
+    0% { top: 0; }
+    50% { top: -0.2em; }
+    70% { top: -0.2em; }
+    100% { top: 0; }
+}
+
+.parallax{
+  background-image: url("/Users/michelletsang/Documents/GitHub/mtsang1.github.io/Final_Project/Assets/images/ricepaddy.jpg");
+
+  /* Set a specific height */
+  height: 600px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+
+
+
+/*Content page*/
+.labels2{
+  font-size:40px;
+  padding-right:20%;
+  padding-top:7%;
+}
+
+.content{
+  font-size:22px;
+  padding-left:20%;
+  padding-right:20%;
+  padding-top:5%;
+}
+
+.carousel-inner{
+  padding-right:30%;
+  padding-left:30%;
+  opacity:0.8;
+}
+
+.glyphicon.glyphicon-triangle-left{
+  font-size:20px;
+  padding-top:30%;
+}
