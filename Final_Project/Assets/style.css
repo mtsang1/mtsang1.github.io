@@ -74,14 +74,11 @@ font-weight: normal;
 .bounce {
   display: inline-block;
   position: relative;
-  -moz-animation: bounce 0.5s infinite linear;
-  -o-animation: bounce 0.5s infinite linear;
-  -webkit-animation: bounce 0.5s infinite linear;
   animation: bounce 0.5s infinite linear;
-  colr:000;
+  color:#000;
 }
 
-/*bouncing arrow*/
+/*adding bounce to arrow*/
 @keyframes bounce {
     0% { top: 0; }
     50% { top: -0.2em; }
@@ -103,17 +100,13 @@ font-weight: normal;
  }
 
 /******CONTENT PAGE******/
-/*all titles*/
+/*titles*/
 .labels2{
   font-size:40px;
   width:30%;
   letter-spacing:  0.1em;
   margin-top:10%;
   margin-left:25%;
-}
-/*titles for all spices*/
-.border1{
-  color:#F39D9D;
 }
 
 /*food description*/
@@ -145,11 +138,164 @@ font-weight: normal;
   padding-top:30%;
 }
 
-.filler1{
-  color: #F39D9D
+/*title colors for all spices*/
+.border1, .filler1{
+  color:#F39D9D;
 }
 
-/*top strip*/
+.cinnamonborder1, .cinnamonfiller1{
+  color: #AA7F3E
+}
+
+.seasemeseedsborder1, .seasemeseedsfiller1{
+  color:#726553;
+}
+
+.garlicborder1, .garlicfillerdiv{
+  color:#D3CFC3;
+}
+
+.honeyborder1, .honeyfiller1{
+  color:#FDBE5F;
+}
+
+.molassesborder1, .molassesfiller1{
+  color:#5F3F0F;
+}
+
+.maplesyrupborder1, .maplesyrupfiller1{
+  color:#C66A56;
+}
+
+.brownsugarborder1,.brownsugarfiller1{
+  color:#BE965A;
+}
+
+.coconutoilborder1, .coconutoilfiller1{
+  color:#945837;
+}
+
+.oliveoilborder1, .oliveoilfiller1{
+  color:#71A232;
+}
+
+.avocadooilborder1, .avocadooilfiller1{
+  color:#C3E19C;
+}
+
+.peanutoilborder1, .peanutoilfiller1{
+  color:#E0C979;
+}
+
+.riceborder1, .ricefiller1{
+  color:#70BB6F;
+}
+
+.wheatborder1, .wheatfiller1{
+  color:#FFDF8B;
+}
+
+.oatborder1, .oatfiller1{
+  color:#E0C979;
+}
+
+.cornborder1, .cornfiller1{
+  color:#FFE975;
+}
+
+.saltborder1, .saltfiller1{
+  color:black;
+}
+
+.pepperborder1, .pepperfiller1{
+  color:#3E3520;
+}
+
+.mintborder1, .mintfiller1{
+  color:#98ff98;
+}
+
+.vanillaborder1, .vanillafiller1{
+  color:#A47601;
+}
+
+/*strip*/
 .fillerdiv{
   background-color: #F39D9D
+}
+
+.cinnamonfillerdiv{
+  background-color:#AA7F3E;
+}
+
+.seasemeseedsfillerdiv{
+  background-color:#726553;
+}
+
+.garlicfillerdiv{
+  background-color: #D3CFC3
+}
+
+.honeyfillerdiv{
+  background-color:#FDBE5F
+}
+
+.molassesfillerdiv{
+  background-color:#5F3F0F;
+}
+
+.maplesyrupfillerdiv{
+  background-color:#C66A56;
+}
+
+.brownsugarfillerdiv{
+  background-color:#BE965A;
+}
+
+.coconutoilfillerdiv{
+  background-color:#945837;
+}
+
+.oliveoilfillerdiv{
+  background-color:#71A232;
+}
+
+.avocadooilfillerdiv{
+  background-color: #C3E19C;
+}
+
+.peanutoilfillerdiv{
+  background-color:#E0C979;
+}
+
+.ricefillerdiv{
+  background-color:#70BB6F;
+}
+
+.wheatfillerdiv{
+  background-color:#FFDF8B;
+}
+
+.oatfillerdiv{
+  background-color:#E0C979;
+}
+
+.cornfillerdiv{
+  background-color:#FFE975;
+}
+
+.saltfillerdiv{
+  background-color:black;
+}
+
+.pepperfillerdiv{
+  background-color:#3E3520;
+}
+
+.mintfillerdiv{
+  background-color:#98ff98;
+}
+
+.vanillafillerdiv{
+  background-color:#A47601;
 }
