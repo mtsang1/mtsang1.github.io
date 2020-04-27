@@ -6,6 +6,7 @@ a:hover{
 	text-decoration: none;
 }
 
+/******HOMEPAGE******/
 .caption, .labels, #summary, .title1, .labels2, .content{
 font-family: Thasadith;
 font-style: normal;
@@ -27,43 +28,33 @@ font-weight: normal;
   color:#757272
 }
 
+/*border around title*/
 .border{
 	border-width:5px !important;
 }
 
-.border1{
-  color:#F39D9D;
-}
-
-#title{
-	padding-top:20%;
-}
-#description{
-	letter-spacing:  0.05em;
-	padding-top:25px;
-	font-size:35px;
-}
-
+/*description*/
 #summary{
 	font-size:22px;
 	padding-top:40px;
 	padding-bottom:10px;
 	letter-spacing:0.1em;
-	
 }
 
+/*banner on front page*/
 #banner{
 	opacity:0.80;
 	height:600px;
 }
 
+/*labels for options*/
 .labels{
 	font-size: 25px;
 	letter-spacing:  0.1em;
 	padding-bottom:40px;
 }
 
-
+/*hover over options*/
 .imagehover {
   opacity: 1;
   display: block;
@@ -75,12 +66,10 @@ font-weight: normal;
   opacity:0.3;
 }
 
-
+/*arrow*/
 .glyphicon.glyphicon-triangle-bottom{
 	font-size:50px;
 }
-
-
 
 .bounce {
   display: inline-block;
@@ -92,30 +81,7 @@ font-weight: normal;
   colr:000;
 }
 
-@-webkit-keyframes bounce {
-    0% { top: 0; }
-    50% { top: -0.2em; }
-    70% { top: -0.2em; }
-    100% { top: 0; }
-}
-@-moz-keyframes bounce {
-    0% { top: 0; }
-    50% { top: -0.2em; }
-    70% { top: -0.2em; }
-    100% { top: 0; }
-}
-@-o-keyframes bounce {
-    0% { top: 0; }
-    50% { top: -0.2em; }
-    70% { top: -0.2em; }
-    100% { top: 0; }
-}
-@-ms-keyframes bounce {
-    0% { top: 0; }
-    50% { top: -0.2em; }
-    70% { top: -0.2em; }
-    100% { top: 0; }
-}
+/*bouncing arrow*/
 @keyframes bounce {
     0% { top: 0; }
     50% { top: -0.2em; }
@@ -123,13 +89,12 @@ font-weight: normal;
     100% { top: 0; }
 }
 
+/*parallax scrolling for banner*/
 .parallax{
   background-image: url("../Assets/images/ricepaddy.jpg");
-
-  /* Set a specific height */
+  /* set a specific height */
   height: 580px; 
-
-  /* Create the parallax scrolling effect */
+  /* create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -137,9 +102,8 @@ font-weight: normal;
   position:relative;
  }
 
-
-
-/*Content page*/
+/******CONTENT PAGE******/
+/*all titles*/
 .labels2{
   font-size:40px;
   width:30%;
@@ -147,7 +111,12 @@ font-weight: normal;
   margin-top:10%;
   margin-left:25%;
 }
+/*titles for all spices*/
+.border1{
+  color:#F39D9D;
+}
 
+/*food description*/
 .content{
   font-size:22px;
   padding-left:12%;
@@ -156,6 +125,7 @@ font-weight: normal;
   margin-left:5%;
 }
 
+/*carousel*/
 .carousel-inner{
   padding-right:20%;
   opacity:0.8;
@@ -164,10 +134,12 @@ font-weight: normal;
   height:400px;
 }
 
+/*pictures for carousel*/
 .tales{
   height:400px;
 }
 
+ /*back arrow*/
 .glyphicon.glyphicon-triangle-left{
   font-size:20px;
   padding-top:30%;
@@ -177,6 +149,7 @@ font-weight: normal;
   color: #F39D9D
 }
 
+/*top strip*/
 .fillerdiv{
   background-color: #F39D9D
 }
